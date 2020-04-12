@@ -1,8 +1,246 @@
-body {
-    overflow-x: hidden;
-    font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-
+@font-face {
+  font-family: "montserratregular";
+  src: url("/vendor/fontawesome-free/webfonts/montserrat-regular-webfont.woff2")
+      format("woff2"),
+    url("/vendor/fontawesome-free/webfonts/montserrat-regular-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  overflow-x: hidden;
+  font-family: "montserratregular", Arial, Helvetica, sans-serif;
+}
 p {
-    line-height: 1.75;
+  line-height: 1.75;
+}
+header {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: 10vh;
+  align-items: center;
+}
+.logo-container,
+.nav-links {
+  display: flex;
+}
+.logo-container {
+  flex: 1;
+}
+.logo {
+  color: white;
+}
+.nav-links {
+  justify-content: space-around;
+  list-style: none;
+}
+.nav-link {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+nav {
+  flex: 1;
+}
+.presentation {
+  font-family: "montserratregular", Arial, Helvetica, sans-serif;
+  display: flex;
+  width: 80%;
+  min-height: 80vh;
+  margin: auto;
+  align-items: center;
+}
+.introduction {
+  flex: 1;
+  text-align: center;
+}
+.intro-text h1 {
+  font-family: "montserratregular", Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 108px;
+  text-shadow: 0.02em 0 black, 0 0.02em black, -0.02em 0 black, 0 -0.02em black;
+  filter: drop-shadow(6px 6px 6px black);
+  font-weight: 500;
+  animation: drop 1.5s ease;
+}
+.intro-text p {
+  font-family: "montserratregular", Arial, Helvetica, sans-serif;
+  color: white;
+  filter: drop-shadow(6px 6px 6px black);
+  text-shadow: 0.04em 0 black, 0 0.04em black, -0.04em 0 black, 0 -0.04em black;
+  font-size: 44px;
+  margin-top: 5px;
+  animation: drop 1.5s ease;
+}
+.Know-App {
+  font-family: "montserratregular", Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 5px;
+  padding: 20px;
+  filter: drop-shadow(6px 6px 6px black);
+  width: 180px;
+  border: black;
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+.backimg {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+  width: 1960px;
+  height: 800px;
+}
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+#Servicios h2 {
+  font-size: 50px;
+  text-align: center;
+}
+#Servicios p {
+  text-align: center;
+  font-weight: lighter;
+}
+#Portfolio h2 {
+  margin-top: 80px;
+  font-size: 50px;
+  text-align: center;
+}
+#Portfolio p {
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 100px;
+}
+#about h2 {
+  margin-top: 80px;
+  font-size: 50px;
+  text-align: center;
+}
+#about p {
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 100px;
+}
+.columns {
+  margin-top: 90px;
+  column-count: 3;
+  text-align: center;
+}
+.icon {
+  height: 150px;
+  margin-bottom: 30px;
+}
+.Grid {
+  width: 65%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.item h1 {
+  margin-top: 25px;
+  font-size: 20px;
+  font-style: initial;
+  font-weight: bolder;
+  font-weight: initial;
+  text-align: center;
+}
+.item h6 {
+  font-size: 13px;
+  text-align: center;
+}
+#Portfolio {
+  background: rgb(236, 236, 236);
+}
+.storyline img {
+  width: 100px;
+  border-radius: 50%;
+}
+.storyline ul {
+  text-align: center;
+  list-style: none;
+}
+.storyline li {
+  margin: 100px;
+}
+#team h2 {
+  margin-top: 80px;
+  font-size: 50px;
+  text-align: center;
+}
+#team p {
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+#team {
+  background: rgb(236, 236, 236);
+}
+.people {
+  border-radius: 50%;
+}
+.fb,
+.link,
+.tw {
+  height: 40px;
+}
+.sm ul li {
+  display: inline-block;
+}
+.container-footer {
+  column-count: 3;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.people-text {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 95px;
+}
+.c1-footer {
+  text-align: left;
+}
+.c2-footer {
+  align-items: center;
+  text-align: center;
+}
+.c3-footer a {
+  text-align: right;
+  color: rgb(131, 90, 2);
+}
+@media screen and (max-width: 1024px) {
+  .presentation {
+    flex-direction: column;
+  }
+  .introduction {
+    margin-top: 5vh;
+    text-align: center;
+  }
+  .intro-text h1 {
+    font-size: 90px;
+  }
+  .intro-text p {
+    font-size: 50px;
+  }
 }
