@@ -1,0 +1,105 @@
+[1mdiff --git a/demo-html/index.html b/demo-html/index.html[m
+[1mindex 0a19cf9..2300b97 100644[m
+[1m--- a/demo-html/index.html[m
+[1m+++ b/demo-html/index.html[m
+[36m@@ -103,7 +103,7 @@[m
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa tincidunt nunc pulvinar sapien. Nulla facilisi cras fermentum odio.</p>[m
+           </div>[m
+           <div class="c3">[m
+[31m-            <img class="icon" src="/img/icons/shirt.png">[m
+[32m+[m[32m            <img class="icon" src="img/icons/shirt.png">[m
+            <h4>Organizate</h4> [m
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum ut tristique et egestas quis ipsum. Sed risus pretium quam vulputate dignissim suspendisse.</p>[m
+           </div>[m
+[36m@@ -117,12 +117,12 @@[m
+         <p><em>Lorem ipsum dolor sit amet, consectetur.</em></p>[m
+       </div>[m
+       <div class="Grid">[m
+[31m-        <div class="item"><img src="/img/portfolio/01-thumbnail.jpg" alt=""><h1><bold>Prendas</bold></h1><h6><em>Ejemplo</em></h6></div>[m
+[31m-        <div class="item"><img src="/img/portfolio/02-thumbnail.jpg" alt=""><h1><bold>Explora</bold></h1><h6><em>Cosas</em></h6></div>[m
+[31m-        <div class="item"><img src="/img/portfolio/03-thumbnail.jpg" alt=""><h1><bold>Proyectos</bold></h1><h6><em>Identidad</em></h6></div>[m
+[31m-        <div class="item"><img src="/img/portfolio/04-thumbnail.jpg" alt=""><h1><bold>Más cosas</bold></h1><h6><em>Marca</em></h6></div>[m
+[31m-        <div class="item"><img src="/img/portfolio/05-thumbnail.jpg" alt=""><h1><bold>UCEMA</bold></h1><h6><em>Diseño</em></h6></div>[m
+[31m-        <div class="item"><img src="/img/portfolio/06-thumbnail.jpg" alt=""><h1><bold>Fotos</bold></h1><h6><em>Celular</em></h6></div>[m
+[32m+[m[32m        <div class="item"><img src="img/portfolio/01-thumbnail.jpg" alt=""><h1><bold>Prendas</bold></h1><h6><em>Ejemplo</em></h6></div>[m
+[32m+[m[32m        <div class="item"><img src="img/portfolio/02-thumbnail.jpg" alt=""><h1><bold>Explora</bold></h1><h6><em>Cosas</em></h6></div>[m
+[32m+[m[32m        <div class="item"><img src="img/portfolio/03-thumbnail.jpg" alt=""><h1><bold>Proyectos</bold></h1><h6><em>Identidad</em></h6></div>[m
+[32m+[m[32m        <div class="item"><img src="img/portfolio/04-thumbnail.jpg" alt=""><h1><bold>Más cosas</bold></h1><h6><em>Marca</em></h6></div>[m
+[32m+[m[32m        <div class="item"><img src="img/portfolio/05-thumbnail.jpg" alt=""><h1><bold>UCEMA</bold></h1><h6><em>Diseño</em></h6></div>[m
+[32m+[m[32m        <div class="item"><img src="img/portfolio/06-thumbnail.jpg" alt=""><h1><bold>Fotos</bold></h1><h6><em>Celular</em></h6></div>[m
+       </div>[m
+       <div><hr></div>[m
+     </section>[m
+[36m@@ -139,7 +139,7 @@[m
+             <img src="img/about/1.jpg" alt="">[m
+           </li>[m
+           <li>[m
+[31m-            <img src="/img/about/2.jpg" alt="">[m
+[32m+[m[32m            <img src="img/about/2.jpg" alt="">[m
+           </li>[m
+           <li> [m
+             <img src="img/about/3.jpg" alt="">[m
+[36m@@ -159,38 +159,38 @@[m
+       </div>[m
+       <div class="columns">[m
+         <div class="c1">[m
+[31m-          <img class="people" src="/img/team/1.png" alt="">[m
+[32m+[m[32m          <img class="people" src="img/team/1.png" alt="">[m
+           <h4>Jeff Bezos</h4> [m
+           <p>Lead Designer.</p>[m
+           <div class="sm">[m
+             <ul>[m
+[31m-              <li><img class="fb" src="/img/SM/facebook.png" alt=""></li>[m
+[31m-              <li><img class="link" src="/img/SM/Linkedin.png" alt=""></li>[m
+[31m-              <li><img class="tw" src="/img/SM/twitter.png" alt=""></li>[m
+[32m+[m[32m              <li><img class="fb" src="img/SM/facebook.png" alt=""></li>[m
+[32m+[m[32m              <li><img class="link" src="img/SM/Linkedin.png" alt=""></li>[m
+[32m+[m[32m              <li><img class="tw" src="img/SM/twitter.png" alt=""></li>[m
+             </ul>[m
+           </div>[m
+         </div>[m
+          <div class="c2">[m
+[31m-          <img class="people" src="/img/team/1.png" alt="">[m
+[32m+[m[32m          <img class="people" src="img/team/1.png" alt="">[m
+            <h4>Bill Gates</h4> [m
+            <p>Lead Marketer.</p>[m
+            <div class="sm">[m
+             <ul>[m
+[31m-              <li><img class="fb" src="/img/SM/facebook.png" alt=""></li>[m
+[31m-              <li><img class="link" src="/img/SM/Linkedin.png" alt=""></li>[m
+[31m-              <li><img class="tw" src="/img/SM/twitter.png" alt=""></li>[m
+[32m+[m[32m              <li><img class="fb" src="img/SM/facebook.png" alt=""></li>[m
+[32m+[m[32m              <li><img class="link" src="img/SM/Linkedin.png" alt=""></li>[m
+[32m+[m[32m              <li><img class="tw" src="img/SM/twitter.png" alt=""></li>[m
+             </ul>[m
+           </div>[m
+           </div>[m
+           <div class="c3">[m
+[31m-            <img class="people" src="/img/team/1.png" alt="">[m
+[32m+[m[32m            <img class="people" src="img/team/1.png" alt="">[m
+            <h4>Steve Jobs</h4> [m
+            <p>Lead Developer.</p>[m
+            <div class="sm">[m
+             <ul>[m
+[31m-              <li><img class="fb" src="/img/SM/facebook.png" alt=""></li>[m
+[31m-              <li><img class="link" src="/img/SM/Linkedin.png" alt=""></li>[m
+[31m-              <li><img class="tw" src="/img/SM/twitter.png" alt=""></li>[m
+[32m+[m[32m              <li><img class="fb" src="img/SM/facebook.png" alt=""></li>[m
+[32m+[m[32m              <li><img class="link" src="img/SM/Linkedin.png" alt=""></li>[m
+[32m+[m[32m              <li><img class="tw" src="img/SM/twitter.png" alt=""></li>[m
+             </ul>[m
+           </div>[m
+           </div>[m
+[36m@@ -209,9 +209,9 @@[m
+         <div class="c2-footer">[m
+           <div class="sm">[m
+             <ul>[m
+[31m-              <li><img class="fb" src="/img/SM/facebook.png" alt=""></li>[m
+[31m-              <li><img class="link" src="/img/SM/Linkedin.png" alt=""></li>[m
+[31m-              <li><img class="tw" src="/img/SM/twitter.png" alt=""></li>[m
+[32m+[m[32m              <li><img class="fb" src="img/SM/facebook.png" alt=""></li>[m
+[32m+[m[32m              <li><img class="link" src="img/SM/Linkedin.png" alt=""></li>[m
+[32m+[m[32m              <li><img class="tw" src="img/SM/twitter.png" alt=""></li>[m
+             </ul>[m
+           </div>[m
+         </div>[m
